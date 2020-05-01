@@ -30,11 +30,8 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 Deploying your system
 Follow the process described in the course to eb init a new application and eb create a new environment to deploy your image-filter service! Don't forget you can use eb deploy to push changes.
 
-Overview of the Project Tasks
-You have to start with the "Udagram - photo sharing" Monolith application and divide the application into smaller (micro)services. Each microservice must run in a separate Docker container. These containers (and ReplicaSets) have to be managed by using the Kubernetes cluster. You have to demonstrate the ability to independently scale-up, release, and deploy the project using Kubernetes, and TravisCI.
-
-Pre-requisites
-Has experience using Git and GitHub
+Learnings: 
+using Git and GitHub
 Basic Linux Skills
 Basic programming skills in Javascript and Python
 Some familiarity with:
